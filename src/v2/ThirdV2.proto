@@ -1,0 +1,14 @@
+syntax = "proto2";
+package ThirdV2;
+enum LocationType {
+    GPS = 1;
+    NET = 2;
+    OTHER = 3;
+}
+message Map {
+    required string uid = 1;
+    required double lng = 2;
+    required double lat = 3;
+    optional double speed = 4;
+    optional LocationType loc_type = 5;
+}

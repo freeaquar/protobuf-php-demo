@@ -1,0 +1,11 @@
+{
+    "require": {
+        "google/protobuf": "^3.7"
+    },
+    "autoload": {
+        "psr-4": {
+        } ,
+        "classmap": ["src/v2", "src/v3"]
+    }
+}
+
