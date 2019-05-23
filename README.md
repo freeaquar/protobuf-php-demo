@@ -45,8 +45,10 @@ https://github.com/drslump/Protobuf-PHP (已经确认无法安装....参看 issu
 
 故我们只能使用 allegro/php-protobuf.
 
-通过 proto 文件生成 php 代码时候, 需要编译出扩展, 使用的时候不需要, 所以线上环境可以不需要
-与正常 so 安装过程无异, 遇到问题谷歌吧
+通过 proto 文件生成 php 代码和使用生成的 php 代码时, 都需要编译出扩展, 否则报错 `This is a stub file for IDEs, don't use it directly!`
+错误出处: `vendor/allegro/php-protobuf/stubs/ProtobufMessage.php`
+
+安装过程与正常 so 安装过程无异, 遇到问题谷歌吧
 
 ```sh
 cd misc
