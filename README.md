@@ -40,8 +40,8 @@ pb2, pb3 文件有少许不同, 故 proto 文件不可混用, 具体差别可以
 
 使用 pb2, 网上能找到的有两种
 
-https://github.com/allegro/php-protobuf
-https://github.com/drslump/Protobuf-PHP (已经确认无法安装....参看 issue: https://github.com/drslump/Protobuf-PHP/issues/71)
+- https://github.com/allegro/php-protobuf
+- https://github.com/drslump/Protobuf-PHP (已经确认无法安装....参看 issue: https://github.com/drslump/Protobuf-PHP/issues/71)
 
 故我们只能使用 allegro/php-protobuf.
 
